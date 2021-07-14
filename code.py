@@ -3,17 +3,17 @@
 '''
 this is a model which sepaerates training data and testing data and graphs are in this model 
 '''
-!pip install git+https://github.com/zer0sh0t/zer0t0rch
+!pip install git+https://github.com/kushwanth2210/zerotorch
 '''
 import libraries 
 '''
 import torch
 from torch import nn
 import matplotlib.pyplot as plt
-from zer0t0rch import Zer0t0rchWrapper
+from zerotorch import Zer0t0rchWrapper
 from torchvision import models, transforms
 from torchvision.datasets import ImageFolder
-from zer0t0rch.utils import clear_cache, get_accuracy
+from zerotorch.utils import clear_cache, get_accuracy
 from PIL import Image
 
 clear_cache()
